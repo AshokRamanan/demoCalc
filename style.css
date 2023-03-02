@@ -1,0 +1,49 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+.calculator {
+    width: auto;
+    background-color: rgb(255, 102, 0);
+    padding: 1rem;
+}
+#typing {
+    height: 30px;
+    text-align: right;
+    background-color: aliceblue;
+    padding: 5px;
+}
+#answer {
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: larger;
+    padding: 5px;
+    background-color: aliceblue;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 60px;
+    height: 60px;
+    margin: 2px 0;
+    font-weight: bolder;
+    font-size: large;
+}
